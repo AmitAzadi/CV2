@@ -182,10 +182,29 @@ a:hover{
   }
 
   .top-container{
-    background-color:#1e212d;
-    position: relative;
-    padding-top: 130px;
+      position: relative;
+      width:100%;
+      height:500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
+
+  .topbio{
+    position: absolute;
+    top:40%;
+    left:10%;
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 1px;
+  }
+/*
+  .topbio{
+    font-size: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 130px;
+  } */
 
   .middle-container{
     background-color: #faf3e0;
@@ -199,9 +218,11 @@ a:hover{
   }
 
   h1{
-    color: #222831;
-    font-size: 7rem;
-    margin: 50px auto 20px auto;
+    position: absolute;
+    top:20%;
+    left:10%;
+    /* color: #222831; */
+    font-size: 5rem;
     font-family: 'Sacramento', cursive;
     font-weight: bold;
   }
@@ -227,9 +248,13 @@ a:hover{
     padding-bottom: 30px;
   }
 
+  .skills{
+    padding-left:100px;
+    padding-right:100px;
+  }
+
   .skill-row{
     width: 90%;
-    margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
     padding-bottom:40px;
@@ -277,11 +302,6 @@ a:hover{
     margin:40px auto 60px auto;
     line-height: 2;
   }
-    .topbio{
-      font-size: 2rem;
-      font-family: 'Merriweather Sans', sans-serif;
-      padding-bottom: 130px;
-    }
 
     .h3-heading{
       width:100%;
